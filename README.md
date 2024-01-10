@@ -76,3 +76,7 @@ This project is based on the Kaboom.js library, utilizing the Replit starter tem
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 -----------------
+
+## Map Generation Logic
+
+```
