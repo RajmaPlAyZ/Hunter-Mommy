@@ -523,7 +523,7 @@ scene("credits", () => {
 
   // Add a text label with the credits
   add([
-    text("Credits:\n\nGame Design: Vaibhav Bhardwaj\nMD Afaq\nShashwat Mishra\n\nProgramming: Aryan Kaul\n\nTesting: Ajit Chaudhary")
+    text("Game Development: Aryan Kaul\n\nContribution: Vaibhav Bhardwaj\nFaculty Guide: Mr Krashnakant Gupta")
   ]);
   // Add a button to return to the menu
   addButton("Back", vec2(650, 200), () => go("menu"));
