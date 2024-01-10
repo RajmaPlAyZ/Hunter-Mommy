@@ -379,3 +379,14 @@ The code sets up keyboard controls for moving the player character in four direc
 The code sets up touch controls for mobile devices. It records the starting position when a touch begins and adjusts the player's position based on the swipe direction, providing a simple and intuitive mobile gaming experience.
 
 ---
+
+# HOSTING
+
+You can deploy the application by simple building the attached dockerfile.
+
+---
+sudo docker build . -t my-game
+sudo docker run -p 8000:8000 "container_id"
+---
+
+Make sure you have node installed.
